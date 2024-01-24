@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body bgcolor="orange">
+   <center> <h1><b><i><u>Forms</u></i></b></h1></center>
+    <form method="get">
+        <label for="">Name    : </label>
+        <input type="text" name="fname"  placeholder="Enter your name" id=""><br/>
+        <label for="">Age      :</label><span>*</span>
+        <input type="number" required><br> 
+        <label for="">date     :</label>
+        <input type="datetime-local"><br/>
+        <label for="">Email    :</label>
+        <input type="email" placeholder="abc@gmail.com"><br/>
+        <label for="">Password :</label>
+        <input type="password" ><br/>
+        <label for="">File     :</label>
+        <input type="file"><br> 
+        <label for="">URL      :</label>
+        <input type="url" placeholder="www.example.com"><br/>
+        <label for="">Gender   :</label><br/>
+        <input type="radio" name="Gender" id="">male<br/>
+        <input type="radio" name="Gender" id="">Female <br/>
+        <label for="">Language</label><br/>
+        <input type="checkbox" name="Tamil" id="">Tamil<br/>
+        <input type="checkbox" name="Eng" id="">English <br/>
+        <input type="checkbox" name="Hin" id="">Hindi <br/>
+        <input type="checkbox" name="Mal" id=""> Malayalam <br/>
+        <label for="">College</label>
+        <select name="clg" id="">
+         <option value=""></option>
+         <option value="Kgisl">Kgisl</option>
+         <option value="KMG">KMG</option>
+         <option value="SNS">SNS</option>
+        </select> <br/><br/>
+        <!-- <input type="submit" value="ok"> -->
+        <button type="submit">Submit</button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
